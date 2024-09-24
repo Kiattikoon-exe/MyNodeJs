@@ -1,0 +1,111 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  text-align: center;
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.card{
+  display: block;
+  gap: 20px;
+}
+.tile-image{
+  width: 400px;
+  height: 300px;
+}
+
+
+.card{
+  display: inline-block;
+  gap: 20px;
+}
+@media (max-width: 480px) and (min-width:319px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+   text-align: center;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+.container{
+
+}
+.left{
+ 
+  width: 800px;
+}
+
+.right{
+  
+  width: 800px;
+}
+
+
+.tile-image{
+  width: 400px;
+  height: 300px;
+}
+}
+
+
+@media (min-width: 1601px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+   
+  }
+  h1 {
+    font-size: 5rem;
+  }
+
+  .container{
+    display: block;
+    gap: 10px;
+  }
+  .card{
+    display: block;
+    gap: 20px;
+  }
+  .left{
+   float: left;
+    width: 800px;
+  }
+  
+  .right{
+   float: right;
+    width: 800px;
+  }
+ 
+
+.tile-image{
+  
+  width: 400px;
+  height: 300px;
+}
+}
+
+
+
+
+
